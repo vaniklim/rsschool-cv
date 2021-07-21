@@ -1,12 +1,13 @@
 *
 {
    box-sizing: border-box;
+   
 }
 
 body
 {
    margin:0;
-}
+  }
 
 h1,h2
 {
@@ -86,10 +87,18 @@ figure
 figcaption
  {
   font-family: 'Raleway', sans-serif;
+  font-size: 25px;
     font-family: Arial, Verdana, sans-serif;
     text-align: center;
     padding: 15px;
  }
+
+.work
+{
+   margin: 5px;
+   font-size: small;
+   text-decoration: underline;
+}
 
 ul
 {
@@ -110,12 +119,12 @@ margin-bottom: 0px;
 {
     display: flex;
     justify-content: space-around;
-    border: 2px solid rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
     padding: 20px;
     width: 100%;
-    max-width: 750px;
+    max-width: 850px;
     margin: 0 auto;
-    background:transparent;
+    background:rgb(241, 247, 217);
     margin-bottom: 20px;
 
 }
@@ -123,15 +132,15 @@ margin-bottom: 0px;
 .wrapper
  {  width: 100%;
     justify-content: space-around;
-    border: 1.5px solid #e0ddc1;
+    border: 1.5px solid #bebca5;
     display: inline-block;
     margin: 8px 0;
-    padding: 10px;
+    padding: 17.6px;
  }
 
 .invisible
 {
-   max-width: 450px;
+   max-width: 500px;
 }
 
 .links
@@ -145,8 +154,8 @@ margin-bottom: 0px;
 .seccaptext
 {
  opacity: .3;
- margin-top: 0%;
- font-size: 0.99em;
+ margin-top: 2%;
+ font-size: 18px;
 }
 
 .subtiltle
