@@ -1,0 +1,215 @@
+*
+{
+   box-sizing: border-box;
+   
+}
+
+body
+{
+   margin:0;
+  }
+
+h1,h2
+{ 
+  font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+h4
+{
+  font-family: 'Raleway', sans-serif;
+ 
+    padding: 10px;
+}
+h3
+{
+  font-family: 'Raleway', sans-serif;
+   margin:0;
+   font-size: 20px;
+}
+h4
+{
+  font-family: 'Raleway', sans-serif;
+   text-align: left;
+   padding: 0;
+   padding-left: 10px;
+   font-size:15px;
+   margin:0;
+}
+
+
+header
+{
+  font-family: 'Raleway', sans-serif;
+   text-align: center;
+   font-size: 20px;
+}
+
+p
+{
+text-align: center;
+margin: -5px 0;
+font-size: 1.17em;
+}
+
+a
+{
+   text-decoration: none;
+   color: #000000;
+}
+
+a:hover
+{
+   background-color: #6fa83a;
+   color: rgb(10, 10, 10);
+   box-shadow: 2px 1px 3px #000000;
+   transform: scale(1.2);
+}
+
+img
+ {
+    width: 188px;
+    height: 193px;
+    border-radius: 50%;
+    margin-left: 1px;
+ }
+
+figure
+ {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 7px rgb(0, 0, 0);
+    background: linear-gradient(81deg, #93e249, #202020);
+   }
+
+figcaption
+ {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+    font-family: Arial, Verdana, sans-serif;
+    text-align: center;
+    padding: 15px;
+ }
+
+.work
+{
+   margin: 5px;
+   font-size: small;
+   text-decoration: underline;
+}
+
+ul
+{
+margin-top: 10px;
+margin-bottom: 0px;
+
+}
+
+ li
+{
+  font-family: 'Raleway', sans-serif;
+   text-align: left;
+   margin: 5px 10px;
+   font-size:14px;
+}
+
+.square
+{
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid rgb(57, 85, 55);
+    padding: 20px;
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    background:rgb(241, 247, 217);
+    margin-bottom: 20px;
+    border-radius: 23px;
+}
+
+.wrapper
+ {  width: 100%;
+    justify-content: space-around;
+    border-left: 1px solid #648872;
+    border-right: 1px solid #648872;
+        border-radius: 23px;
+    display: inline-block;
+    margin: 8px 0;
+    padding: 17.6px;
+    
+ }
+
+ .contacts
+ {  width: 100%;
+    justify-content: space-around;
+    display: inline-block;
+    margin: 8px 0;
+    padding: 17.6px;
+    border-bottom: 1px solid #30dd72;
+    border-top: 1px solid #30dd72;
+    border-radius: 23px;
+     }
+
+.invisible
+{
+   max-width: 500px;
+}
+
+.links
+{
+  font-family: 'Raleway', sans-serif;
+   display: flex;
+   justify-content: space-evenly;
+   padding-left:15px;
+}
+
+.seccaptext
+{
+margin-left: -40px;
+list-style-type: none;
+ opacity: .3;
+ margin-top: 1%;
+ font-size: 18px;
+}
+
+.subtiltle
+{
+  font-family: 'Raleway', sans-serif;
+   text-align: left;
+   padding: 0px 10px;
+}
+
+.course
+{
+   margin: 0;
+   margin-top:10px;
+    text-align: left;
+    font-size: 12px;
+     color:rgb(2, 2, 2);
+
+}
+
+.footer
+{
+   left: 0; bottom: 0;
+   padding: 12px 1px 12px 1px;
+   background: #93e249;
+   color: rgb(0, 0, 0);
+   width: 100%;
+}
+
+.footerimage
+{
+margin-left: 0px;
+width: 81px;
+height: 30px;
+}
+
+
+.footergithub
+{
+padding: 5px 0px 5px 0px;
+color: rgb(0, 0, 0);
+}
