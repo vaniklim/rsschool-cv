@@ -10,7 +10,7 @@ body
   }
 
 h1,h2
-{
+{ 
   font-family: 'Raleway', sans-serif;
     text-align: center;
 }
@@ -75,7 +75,7 @@ img
 
 figure
  {
-    margin-top: 0px;
+    margin-top: 50px;
     margin-left: 20px;
     width: 200px;
     height: 200px;
@@ -112,31 +112,45 @@ margin-bottom: 0px;
   font-family: 'Raleway', sans-serif;
    text-align: left;
    margin: 5px 10px;
-   font-size:13px;
+   font-size:14px;
 }
 
 .square
 {
     display: flex;
     justify-content: space-around;
-    border: 3px solid rgb(0, 0, 0);
+    border: 5px solid rgb(57, 85, 55);
     padding: 20px;
     width: 100%;
     max-width: 850px;
     margin: 0 auto;
     background:rgb(241, 247, 217);
     margin-bottom: 20px;
-
+    border-radius: 23px;
 }
 
 .wrapper
  {  width: 100%;
     justify-content: space-around;
-    border: 1.5px solid #bebca5;
+    border-left: 1px solid #648872;
+    border-right: 1px solid #648872;
+        border-radius: 23px;
     display: inline-block;
     margin: 8px 0;
     padding: 17.6px;
+    
  }
+
+ .contacts
+ {  width: 100%;
+    justify-content: space-around;
+    display: inline-block;
+    margin: 8px 0;
+    padding: 17.6px;
+    border-bottom: 1px solid #30dd72;
+    border-top: 1px solid #30dd72;
+    border-radius: 23px;
+     }
 
 .invisible
 {
@@ -153,8 +167,10 @@ margin-bottom: 0px;
 
 .seccaptext
 {
+margin-left: -40px;
+list-style-type: none;
  opacity: .3;
- margin-top: 2%;
+ margin-top: 1%;
  font-size: 18px;
 }
 
