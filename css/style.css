@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.text-1{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin: 20px auto;
+}
+
+img {
+  margin-left: 3px;
+  width: 188px;
+  height: 193px;
+  border-radius: 50%;
+}
+
+figure {
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 19px rgb(0, 0, 0);
+  background-color: #0b1d58;
+}
+
+figcaption {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  font-family: Arial, Verdana, sans-serif;
+  padding: 25px;
+}
+
+.work {
+  margin: 10px auto;
+  font-size: small;
+  text-decoration: underline;
+}
+
+ul {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+li {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  margin: 8px 10px;
+  font-size: 14px;
+}
+
+.seccaptext {
+  list-style-type: none;
+  opacity: .6;
+}
+
+.list{
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding: 10px 0px;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+p {
+  text-align: center;
+  margin: -5px 0;
+  font-size: 1.17em;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  background-color: #3a6aa8;
+  color: rgb(10, 10, 10);
+  box-shadow: 2px 1px 3px #000000;
+  transform: scale(1.2);
+}
+
+
+.square {
+  display: flex;
+  justify-content: space-around;
+  border: 5px solid rgb(55, 65, 85);
+  padding: 20px;
+  max-width: 950px;
+  margin: 0 auto;
+  background: rgb(217, 246, 247);
+  margin-bottom: 20px;
+  border-radius: 23px;
+}
+
+.wrapper {
+  width: 550px;
+  justify-content: space-around;
+  border-left: 2px solid #3a9ad1;
+  border-right: 2px solid #3a9ad1;
+  border-radius: 23px;
+  display: inline-block;
+  margin: 8px 0;
+  padding: 0 17px;
+}
+
+.contacts {
+  width: 100%;
+  justify-content: space-around;
+  display: inline-block;
+  margin: 8px 0;
+  padding: 17.6px;
+  border-bottom: 1px solid #306ddd;
+  border-top: 1px solid #307bdd;
+  border-radius: 23px;
+}
+
+.invisible {
+  max-width: 500px;
+}
+
+.links {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 15px;
+}
+
+.course {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(2, 2, 2);
+}
+
+.footer {
+  padding: 12px 0px 12px 0px;
+  background: #b4e0f1;
+  color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+.footerimage {
+  width: 80px;
+  height: 30px;
+}
+
+
+.footergithub {
+  padding: 12px 0px 12px 0px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
