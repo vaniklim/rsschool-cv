@@ -1,1 +1,1 @@
-  https://vaniklim.github.io/rsschool-cv/cv
+  https://vaniklim.github.io/rsschool-cv/
